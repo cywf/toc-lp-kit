@@ -35,4 +35,4 @@ docker-compose up -d
 •	docker-compose.yml – orchestration of all services
 
 ## License
-This project is MIT-licensed. See [LICENSE]().
+This project is MIT-licensed. See [LICENSE](https://github.com/cywf/toc-lp-kit/blob/main/LICENSE).
