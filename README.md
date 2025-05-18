@@ -29,10 +29,10 @@ docker-compose up -d
 ---
 
 ## What’s Inside
-•	chrony – containerized time sync
-•	sdr-pipeline – rtl_fm → sox → PulseAudio
-•	js8call – JS8Call GUI & decoder
-•	docker-compose.yml – orchestration of all services
+- chrony – containerized time sync
+- sdr-pipeline – rtl_fm → sox → PulseAudio
+- js8call – JS8Call GUI & decoder
+- docker-compose.yml – orchestration of all services
 
 ## License
 This project is MIT-licensed. See [LICENSE](https://github.com/cywf/toc-lp-kit/blob/main/LICENSE).
