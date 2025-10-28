@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   chrony:
     image: chrony/chrony:latest
@@ -31,9 +30,8 @@ services:
     environment:
       - DISPLAY=${DISPLAY}
       - PULSE_SERVER=unix:/tmp/pulse/native
-    devices:
-      - /tmp/pulse:/tmp/pulse
     volumes:
+      - /tmp/pulse:/tmp/pulse
       - /tmp/.X11-unix:/tmp/.X11-unix
       - js8-log:/home/js8/.js8call
     depends_on:
